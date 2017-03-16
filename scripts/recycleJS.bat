@@ -42,20 +42,3 @@ objItem.InvokeVerb('delete')
 function help() {
   WScript.Echo("Usage:\n\t" + WScript.ScriptName + " <file|folder>")
 }
-
-/*
- * Reference: Shell.NameSpace method
- * https://msdn.microsoft.com/en-us/library/windows/desktop/bb774085(v=vs.85).aspx
- * Reference: Folder object
- * https://msdn.microsoft.com/en-us/library/windows/desktop/bb787868(v=vs.85).aspx
- * Reference: FolderItem object
- * https://msdn.microsoft.com/en-us/library/windows/desktop/bb787810(v=vs.85).aspx
- * Reference: FolderItem.Verbs method
- * https://msdn.microsoft.com/en-us/library/windows/desktop/bb787850(v=vs.85).aspx
- * Reference: FolderItemVerbs object
- * https://msdn.microsoft.com/en-us/library/windows/desktop/bb774160(v=vs.85).aspx
- * Reference: FolderItem.InvokeVerb method
- * https://msdn.microsoft.com/en-us/library/windows/desktop/bb787816(v=vs.85).aspx
- * Reference: FolderItemVerb.Doit method
- * https://msdn.microsoft.com/en-us/library/windows/desktop/bb774170(v=vs.85).aspx
- */
